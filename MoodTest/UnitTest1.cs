@@ -37,6 +37,7 @@ namespace MoodTest
         }
 
         //UC3
+
         [TestMethod]
         [ExpectedException(typeof(MoodAnalyserCustomException))]
         public void GivenMoodEmpty_ShouldThrowException()
@@ -44,6 +45,41 @@ namespace MoodTest
             MoodAnalyser obj = new MoodAnalyser();
             string result = obj.analyseMood();
             Assert.AreEqual("HAPPY", result);
+
+        }
+
+        //UC4
+
+        [TestMethod]
+        public void GivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject()
+        {
+            string message = null;
+            object expected = new MoodAnalyser(message);
+            object obj = MoodAnalyserFactory.CreateMoodAnalyser("MoodAnalyser1.MoodAnalyser", "MoodAnalyser");
+            expected.Equals(obj);
+
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(MoodAnalyserCustomException))]
+
+        public void GivenWrongClassName_ShouldThrowException()
+        {
+            string message = null;
+            object expected = new MoodAnalyser(message);
+            object obj = MoodAnalyserFactory.CreateMoodAnalyser("MoodAnalyser1.Moodanalyser", "MoodAnalyser");
+            expected.Equals(obj);
+
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(MoodAnalyserCustomException))]
+        public void GivenClassConstructerNotProper_ShouldThrowException()
+        {
+            string message = null;
+            object expected = new MoodAnalyser(message);
+            object obj = MoodAnalyserFactory.CreateMoodAnalyser("MoodAnalyser1.Moodanalyser", "MoodAnalyser(int)");
+            expected.Equals(obj);
 
         }
 
