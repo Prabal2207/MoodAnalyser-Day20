@@ -36,6 +36,17 @@ namespace MoodTest
 
         }
 
+        //UC3
+        [TestMethod]
+        [ExpectedException(typeof(MoodAnalyserCustomException))]
+        public void GivenMoodEmpty_ShouldThrowException()
+        {
+            MoodAnalyser obj = new MoodAnalyser();
+            string result = obj.analyseMood();
+            Assert.AreEqual("HAPPY", result);
+
+        }
+
     }
 
 
