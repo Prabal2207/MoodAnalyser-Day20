@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{21F9000E-DF67-4B44-A770-DDACA6F0CADA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DAY20/UserRegistration.cs">
+    <Files>
+      <File FileName="DAY20/Program.cs" Line="25" Column="44" />
+      <File FileName="DAY20/UserRegistration.cs" Line="21" Column="60" />
+      <File FileName="UserRegMsTest/UnitTest1.cs" Line="24" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DAY20" expanded="True">
+            <Node name="DAY20" expanded="True">
+              <Node name="UserRegistration.cs" selected="True" />
+            </Node>
+            <Node name="UserRegMsTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DAY20" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DAY20 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

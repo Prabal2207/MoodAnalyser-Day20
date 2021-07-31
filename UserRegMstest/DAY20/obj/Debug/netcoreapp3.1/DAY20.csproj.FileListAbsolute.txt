@@ -1,0 +1,12 @@
+/Users/prabalrai/Projects/DAY20/DAY20/bin/Debug/netcoreapp3.1/DAY20.deps.json
+/Users/prabalrai/Projects/DAY20/DAY20/bin/Debug/netcoreapp3.1/DAY20.runtimeconfig.json
+/Users/prabalrai/Projects/DAY20/DAY20/bin/Debug/netcoreapp3.1/DAY20.runtimeconfig.dev.json
+/Users/prabalrai/Projects/DAY20/DAY20/bin/Debug/netcoreapp3.1/DAY20.dll
+/Users/prabalrai/Projects/DAY20/DAY20/bin/Debug/netcoreapp3.1/DAY20.pdb
+/Users/prabalrai/Projects/DAY20/DAY20/obj/Debug/netcoreapp3.1/DAY20.csproj.AssemblyReference.cache
+/Users/prabalrai/Projects/DAY20/DAY20/obj/Debug/netcoreapp3.1/DAY20.AssemblyInfoInputs.cache
+/Users/prabalrai/Projects/DAY20/DAY20/obj/Debug/netcoreapp3.1/DAY20.AssemblyInfo.cs
+/Users/prabalrai/Projects/DAY20/DAY20/obj/Debug/netcoreapp3.1/DAY20.csproj.CoreCompileInputs.cache
+/Users/prabalrai/Projects/DAY20/DAY20/obj/Debug/netcoreapp3.1/DAY20.dll
+/Users/prabalrai/Projects/DAY20/DAY20/obj/Debug/netcoreapp3.1/DAY20.pdb
+/Users/prabalrai/Projects/DAY20/DAY20/obj/Debug/netcoreapp3.1/DAY20.genruntimeconfig.cache
